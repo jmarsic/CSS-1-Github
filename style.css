@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  font-family: nunito;
+  font-weight: 300;
+}
+
+body {
+  background-color: #0d1117;
+  margin: auto
+}
+
+/* .wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-bottom: 10px;
+} */
+
+.bla {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-bottom: 200px;
+}
+
+.main-header {
+  color: #c4c4c4;
+}
+
+.email-input {
+  color: #c4c4c4;
+}
+
+.password-input {
+  color: #c4c4c4;
+}
+
+.create-new {
+  color: #c4c4c4;
+}

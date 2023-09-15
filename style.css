@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  font-family: nunito;
+  padding: 0;
+  font-family: nunito, sans-serif;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 .wrapper {
   margin: auto;
-  max-width: 400px;
+  max-width: 360px;
   display: grid;
 }
 
@@ -23,6 +24,7 @@ body {
 
 .title-container h1 {
   font-weight: 400;
+  text-align: center;
 }
 
 .title-container img {
@@ -32,9 +34,9 @@ body {
 }
 
 .input-form {
-  border: 1px solid #383838;
-  padding: 20px;
   margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #383838;
   border-radius: 8px;
   background-color: #13171f;
   display: block;
@@ -43,26 +45,26 @@ body {
 }
 
 .input-form input {
-  padding: 6px;
   margin: 10px 0 20px 0;
+  padding: 6px;
+  border: 1px solid #383838;
   border-radius: 6px;
+  background-color: #0d1117;
   width: 100%;
   box-sizing: border-box;
-  background-color: #0d1117;
-  border: 1px solid #383838;
 }
 
 .input-form .button {
+  margin: 0px;
+  border: none;
   background-color: #228736;
   color: #e7e7e7;
   font-size: 18px;
-  margin: 0px;
-  border: none;
 }
 
 .main-header {
-  color: #e7e7e7;
   margin-bottom: 16px;
+  color: #e7e7e7;
 }
 
 .email-input {
@@ -74,10 +76,10 @@ body {
 }
 
 .create-account {
-  color: #e7e7e7;
-  border: 1px solid #383838;
   padding: 20px;
+  border: 1px solid #383838;
   border-radius: 8px;
+  color: #e7e7e7;
 }
 
 .create-account a {
@@ -85,5 +87,5 @@ body {
 }
 
 .create-account p {
-  margin-left: 50px;
+  text-align: center;
 }

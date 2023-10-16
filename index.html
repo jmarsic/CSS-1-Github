@@ -11,31 +11,42 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="form-spacer"></div>
     <div class="wrapper">
-      <div class="title-container">
-        <a href="https://github.com/"
-          ><img src="./assets/github.png" alt="Github logo"
-        /></a>
-        <h1 class="main-header">Sign to GitHub</h1>
+      <div class="header">
+        <a href="https://github.com/">
+          <img
+            src="./assets/github.png"
+            alt="Github logo"
+            class="header__logo"
+            width="80"
+            height="80"
+          />
+        </a>
+        <div class="header__title-container">
+          <h1 class="header__title">Sign to GitHub</h1>
+        </div>
       </div>
-      <div class="input-form">
+      <div class="form-wrapper">
         <form>
-          <label class="email-input">
-            Username or email address
-            <input type="text" />
+          <label>
+            <span class="form__label">Username or email address</span>
+            <input type="text" class="form__input" />
           </label>
-          <label class="password-input">
-            Password
-            <input type="password" />
+          <label>
+            <span class="form__label">Password</span>
+            <input type="password" class="form__input" />
           </label>
-          <input class="button" type="submit" value="Sign in" />
+          <button class="button">Sign in</button>
         </form>
       </div>
       <div class="create-account">
-        <p>
+        <p class="create-account-text">
           New to GitHub?
-          <a href="https://github.com/signup?source=login">Create an account</a>
+          <a
+            href="https://github.com/signup?source=login"
+            class="create-account-link"
+            >Create an account</a
+          >
         </p>
       </div>
     </div>

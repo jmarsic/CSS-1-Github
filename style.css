@@ -1,74 +1,78 @@
 * {
-  margin: 0;
-  padding: 0;
   font-family: nunito, sans-serif;
 }
 
 body {
+  margin: 0;
   background-color: #0d1117;
 }
 
-.form-spacer {
-  margin-bottom: 80px;
-}
-
 .wrapper {
-  margin: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 360px;
-  display: grid;
 }
 
-.title-container {
-  margin: auto;
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.title-container h1 {
+.header__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__title-container {
+  margin-bottom: 30px;
+}
+
+.header__title {
+  font-size: 38px;
   font-weight: 400;
   text-align: center;
+  color: #e7e7e7;
 }
 
-.title-container img {
-  width: 100px;
-  height: 100px;
-  padding: 0 0 20px 56px;
-}
-
-.input-form {
+.form-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
   margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #383838;
   border-radius: 8px;
   background-color: #13171f;
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
 }
 
-.input-form input {
-  margin: 10px 0 20px 0;
-  padding: 6px;
+.form__label {
+  font-size: 18px;
+  color: #e7e7e7;
+}
+
+.form__input {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #0d1117;
+  color: #ffffff;
   border: 1px solid #383838;
   border-radius: 6px;
-  background-color: #0d1117;
-  width: 100%;
-  box-sizing: border-box;
+  margin: 10px 0 20px 0;
+  padding: 6px;
 }
 
-.input-form .button {
-  margin: 0px;
+.button {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px;
   border: none;
   background-color: #228736;
   color: #e7e7e7;
   font-size: 18px;
-}
-
-.main-header {
-  margin-bottom: 16px;
-  color: #e7e7e7;
-}
-
-.email-input {
-  color: #e7e7e7;
 }
 
 .password-input {
@@ -76,16 +80,17 @@ body {
 }
 
 .create-account {
-  padding: 20px;
+  padding: 6px;
   border: 1px solid #383838;
   border-radius: 8px;
   color: #e7e7e7;
 }
 
-.create-account a {
+.create-account-link {
   text-decoration: none;
 }
 
-.create-account p {
+.create-account-text {
+  font-size: 18px;
   text-align: center;
 }
